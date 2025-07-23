@@ -5546,6 +5546,23 @@ body.search-visible {
   color: #141414;
 }
 
+.breadcrumb-para {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+.breadcrumb-para p {
+  color: #ffffff;
+}
+.breadcrumb-para p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.card-theme {
+  background-color: #e8e6ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 /*-----------------	
     16. Agent
 -----------------------*/
