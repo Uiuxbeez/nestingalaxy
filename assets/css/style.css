@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*============================
  [Table of CSS]
 
@@ -5522,6 +5523,27 @@ body.search-visible {
   .search-popup .inner-container ul li {
     font-size: 16px;
   }
+}
+
+.points-style li {
+  font-weight: 700;
+}
+.points-style li::before {
+  content: "✔️ ";
+  color: green; /* Optional: sets the color of the tick */
+  margin-right: 0.5em; /* Optional: space between tick and text */
+}
+.points-style li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.block-quote-style {
+  background-color: #e8e6ff;
+  padding: 15px;
+  border-left: 5px solid #6C60FE;
+}
+.block-quote-style p {
+  color: #141414;
 }
 
 /*-----------------	

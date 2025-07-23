@@ -1045,7 +1045,7 @@
 		}
 	}
 	background-color: $__secondarycolor;
-	position: $__relative;
+	position: relative;
 	&:before {
 		content: "";
 		background: url(../img/shapes/testimonial-bg.png);
@@ -2105,5 +2105,26 @@ body {
 				}
 			}
 		}
+	}
+}
+.points-style {
+	li {
+		&::before {
+				content: "✔️ ";
+				color: green; /* Optional: sets the color of the tick */
+				margin-right: 0.5em; /* Optional: space between tick and text */
+			}
+		font-weight: 700;
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+}
+.block-quote-style {
+	background-color: #e8e6ff;
+	padding: 15px;
+	border-left:5px solid #6C60FE;
+	p {
+		color: #141414;
 	}
 }
