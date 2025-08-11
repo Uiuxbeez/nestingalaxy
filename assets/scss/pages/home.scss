@@ -1581,19 +1581,19 @@
 		@extend %flex-center;
 		span, a {
 			flex-shrink: 0;
-			img {
-				width: 60px;
-				height: 60px;
-				flex-shrink: 0;
-				margin-right: 8px;
-				@include respond-below(custom991) {
-					width: 50px;
-					height: 50px;
-				}
-				@include respond-below(custom575) {
-					width: 40px;
-					height: 40px;
-				}
+		}
+		img {
+			width: 60px;
+			height: 60px;
+			flex-shrink: 0;
+			margin-right: 8px;
+			@include respond-below(custom991) {
+				width: 50px;
+				height: 50px;
+			}
+			@include respond-below(custom575) {
+				width: 40px;
+				height: 40px;
 			}
 		}
 		.user-name {
@@ -2142,4 +2142,10 @@ body {
 	background-color: #e8e6ff;
 	padding: 15px;
 	border-radius: 10px;
+}
+.para-clamp {
+	display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
