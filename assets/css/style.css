@@ -1738,7 +1738,7 @@ label span {
   position: relative;
   margin: 0;
   padding: 0 30px;
-  height: 70px;
+  height: 86px;
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -2164,7 +2164,7 @@ label span {
 @media (max-width: 1399.98px) {
   .header .logo {
     margin-right: 26px;
-    max-width: 200px;
+    max-width: 284px;
   }
 }
 @media (max-width: 1199.98px) {
