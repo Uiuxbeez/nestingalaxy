@@ -2161,6 +2161,9 @@ label span {
   display: inline-block;
   margin-right: 50px;
 }
+.header .logo img {
+  max-width: 165px;
+}
 @media (max-width: 1399.98px) {
   .header .logo {
     margin-right: 26px;
@@ -2179,11 +2182,6 @@ label span {
     max-width: 100%;
     margin: 0;
     padding: 0;
-  }
-}
-@media (max-width: 1199.98px) {
-  .header .logo.navbar-brand img {
-    max-width: 165px;
   }
 }
 .header .header-navbar-rht {

@@ -432,6 +432,9 @@
     .logo {
         display: $__inline__block;
         margin-right: 50px;
+        img {
+             max-width: 165px;
+        }
         @include respond-below(custom1399) {
             margin-right: 26px;
             max-width: 284px;
@@ -446,11 +449,6 @@
                 text-align: $__center;
                 max-width: $__full__width;
                 @include margin-padding(0, 0);
-            }
-            img {
-                @include respond-below(custom1199) {
-                    max-width: 165px;
-                }
             }
         }
     } 
